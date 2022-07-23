@@ -160,6 +160,10 @@ a:hover{
     border-color:#66BFBF ;
 }
 
+.source-button:hover .fa-brands{
+   color: white;
+}
+
 #footer{
     
     text-align: center;
@@ -182,11 +186,6 @@ li::marker{
     color: #66BFBF;    
 }
 
-.cards{
-    margin-bottom: 100px;
-}
-
-
 a .fa-solid{
     color: #097d7d;
     margin-bottom: 10%;
@@ -199,12 +198,17 @@ a .fa-brands{
 }
 
 .carousel-item img{
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .carousel-caption b{
     font-family: 'Merriweather', serif;       
     font-size: 4rem;
+}
+
+.card{
+    border-radius: 5%;
+    margin: 5px;
 }
 
 @media screen and (max-width: 767px){
