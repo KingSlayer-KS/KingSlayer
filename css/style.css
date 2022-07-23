@@ -172,11 +172,17 @@ a:hover{
 
 nav{
     background-color: #CCF6C8;
-    color: #66BFBF;
+    
     
 }
 
+#navbar a{
+    color:#66BFBF;
+}
 
+#navbar a:hover{
+    color:#E7F6F2;
+}
 .sirjan{
     font-family: 'Sacramento', cursive;
     font-size: 55px;
